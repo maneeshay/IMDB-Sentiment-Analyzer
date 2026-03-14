@@ -1,9 +1,9 @@
 # IMDB-Sentiment-Analyzer
-# IMDB Sentiment Analyzer 🎬
+# IMDB Sentiment Analyzer 
 
 A machine learning project to classify movie reviews as positive or negative using Natural Language Processing (NLP).
 
-## 🔍Project Overview
+## Project Overview
 This project builds a sentiment analysis model trained on 50,000 IMDB movie reviews. It predicts whether a given review is positive or negative.
 
 ##  Dataset
@@ -36,4 +36,4 @@ sentiment-analyzer/
 
 ## 👩‍💻 Author
 Manisha Yadav
-```
+
