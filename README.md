@@ -1,5 +1,4 @@
 # IMDB-Sentiment-Analyzer
-# IMDB Sentiment Analyzer 
 
 A machine learning project to classify movie reviews as positive or negative using Natural Language Processing (NLP).
 
