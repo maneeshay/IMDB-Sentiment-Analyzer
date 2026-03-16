@@ -29,8 +29,8 @@ sentiment-analyzer/
 ##  Progress
 - [x] Day 1: Load and explore dataset
 - [x] Day 2: Clean and preprocess text
-- [ ] Day 3: Train model
-- [ ] Day 4: Evaluate model
+- [x] Day 3: Train model
+- [x] Day 4: Evaluate model
 - [ ] Day 5: Deploy with Streamlit
 
 ## 👩‍💻 Author
