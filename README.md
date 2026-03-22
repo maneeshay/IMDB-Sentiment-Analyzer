@@ -31,7 +31,7 @@ sentiment-analyzer/
 - [x] Day 2: Clean and preprocess text
 - [x] Day 3: Train model
 - [x] Day 4: Evaluate model
-- [ ] Day 5: Deploy with Streamlit
+- [X] Day 5: Deploy with Streamlit
 
 ## 👩‍💻 Author
 Manisha Yadav
