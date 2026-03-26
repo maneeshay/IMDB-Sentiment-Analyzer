@@ -1,9 +1,12 @@
-# IMDB-Sentiment-Analyzer
+# IMDB Sentiment Analyzer 
 
-A machine learning project to classify movie reviews as positive or negative using Natural Language Processing (NLP).
+A machine learning web app to classify movie reviews as positive or negative using Natural Language Processing (NLP).
 
-## Project Overview
-This project builds a sentiment analysis model trained on 50,000 IMDB movie reviews. It predicts whether a given review is positive or negative.
+##  Live Demo
+[Try it here](https://huggingface.co/spaces/maneeshay/imdb-sentiment-analyzer)
+
+##  Project Overview
+Built a sentiment analysis model trained on 50,000 IMDB movie reviews that predicts whether a given review is positive or negative with **88% accuracy**.
 
 ##  Dataset
 - **Source:** [IMDB Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
@@ -15,24 +18,25 @@ This project builds a sentiment analysis model trained on 50,000 IMDB movie revi
 - Scikit-learn
 - NLTK
 - Matplotlib
-- Streamlit
+- Gradio
 
-##  Project Structure
+## Project Structure
 ```
-sentiment-analyzer/
+IMDB-Sentiment-Analyzer/
 │
-├── sentiment.ipynb       # Main notebook
-├── IMDB Dataset.csv      # Dataset
+├── sentiment.ipynb    # Main notebook (EDA, training, evaluation)
+├── app.py             # Gradio web app
+├── model.pkl          # Trained model
+├── tfidf.pkl          # TF-IDF vectorizer
+├── requirements.txt   # Dependencies
 └── README.md
 ```
 
-##  Progress
-- [x] Day 1: Load and explore dataset
-- [x] Day 2: Clean and preprocess text
-- [x] Day 3: Train model
-- [x] Day 4: Evaluate model
-- [X] Day 5: Deploy with Streamlit
+##  How It Works
+1. Clean and preprocess raw movie reviews
+2. Convert text to numbers using TF-IDF Vectorization
+3. Train Logistic Regression model
+4. Predict sentiment with confidence score
 
-## 👩‍💻 Author
+##  Author
 Manisha Yadav
-
